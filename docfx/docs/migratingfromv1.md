@@ -81,7 +81,7 @@ When measuring the screen space taken up by a `string` you can use the extension
 + myString.GetColumns();
 ```
 
-## `View Life Cycle Management
+## `View` Life Cycle Management
 
 In v1, @Terminal.Gui.View was derived from `Responder` which supported `IDisposable`. In v2, `Responder` has been removed and @Terminal.Gui.View is the base-class supporting `IDisposable`. 
 
